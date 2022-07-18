@@ -10,7 +10,7 @@ const ListadoBebidas = () => {
         {bebidas.map( bebida => (
             <Bebida 
             bebida={bebida}
-            key={bebidas.idDrink}
+            key={bebida.idDrink}
 
              />
         ))}
